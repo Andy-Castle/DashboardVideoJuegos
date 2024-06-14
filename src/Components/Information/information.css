@@ -1,0 +1,35 @@
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.marketing {
+  margin-top: 4rem;
+}
+
+.featurette-divider {
+  margin: 5rem 0;
+  border: 1.5px solid white;
+}
+
+.featurette-divider:last-child {
+  margin-bottom: 1rem;
+}
+.featurette-heading {
+  letter-spacing: -0.05rem;
+}
+
+@media (min-width: 40em) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}

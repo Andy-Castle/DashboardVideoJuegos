@@ -1,0 +1,13 @@
+* {
+  font-family: "Oswald", sans-serif;
+}
+
+body {
+  background: #171717;
+}
+
+main {
+  background: linear-gradient(to bottom, #76b900 0%, #171717 30%, #171717 100%);
+}
+
+/* Esto son los css principales */

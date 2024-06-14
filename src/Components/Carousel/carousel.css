@@ -1,0 +1,90 @@
+.color {
+  background: #76b900;
+  color: white;
+}
+
+.color:hover {
+  background: #5a8b00;
+  color: white;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+h1 {
+  color: rgb(37, 37, 37);
+  font-size: 80px;
+  -webkit-text-stroke: 1px white;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+
+@media (max-width: 770px) {
+  .carousel-caption {
+    margin-bottom: 5.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .carousel-indicators {
+    margin-top: 300px;
+  }
+}
+
+@media (max-width: 470px) {
+  .carousel-caption {
+    margin-bottom: 13.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+  .parrafo {
+    display: none;
+  }
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+
+@media (min-width: 640px) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.75rem;
+    line-height: 1.4;
+    -webkit-text-stroke: 0.5px white;
+    color: black;
+  }
+}
+
+@media (max-width: 770px) {
+  .carousel-caption {
+    margin-bottom: 10px;
+  }
+}
+
+.bd-placeholder-img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-slide-1 {
+  background-image: url("/Images/palworld.png");
+}
+
+.img-slide-2 {
+  background-image: url("/Images/stellarBlade.webp");
+}
+
+.img-slide-3 {
+  background-image: url("/Images/tekken8.jpg");
+}
